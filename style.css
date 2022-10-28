@@ -359,6 +359,10 @@ a:hover {
 
 }
 
+.img-responsive{
+    width: 100%;
+}
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -975,8 +979,8 @@ h4 {
         margin-left: 10px;
     }
     .bloc {
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: 5px;
+        padding-right: 5px;
     }
     .bloc-xxl,
     .bloc-xl,
