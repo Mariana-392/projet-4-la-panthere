@@ -363,6 +363,13 @@ a:hover {
     width: 100%;
 }
 
+.title{
+    color: rgba(0, 0, 0, .6);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -710,8 +717,11 @@ h2 {
     line-height: 1.4em;
 }
 
-.title{
-    color: rgba(0, 0, 0, .6);
+.title1{
+    max-width: 60%;
+}
+.title2{
+    max-width: 45%;
 }
 
 h3 {
@@ -894,6 +904,8 @@ h4 {
     }
 }
 
+
+
 @media (max-width: 767px) {
     .page-container {
         overflow-x: hidden;
@@ -1031,12 +1043,21 @@ h4 {
         width: 180px;
         height: 320px;
     }
+
+    .title1,.title2{
+        max-width: 90%;
+    }
 }
 
 @media (max-width: 400px) {
     .bloc {
         padding-left: 0;
         padding-right: 0;
+    }
+
+    #bloc-8 {
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
 
